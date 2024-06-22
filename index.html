@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hesap Makinesi</title>
+    <link
+      rel="shortcut icon"
+      href="/İmages/Calculator.icons.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="calculator">
+        <div class="resultPanel">
+          <span class="result"></span>
+        </div>
+
+        <div class="clearDiv">
+          <button id="clearAll" type="button">CA</button>
+          <button id="deleteAChar" type="button">X</button>
+        </div>
+
+        <div class="content">
+          <div class="numbers">
+            <div class="Line">
+              <button class="number" type="button" value="7">7</button>
+              <button class="number" type="button" value="8">8</button>
+              <button class="number" type="button" value="9">9</button>
+            </div>
+
+            <div class="Line">
+              <button class="number" type="button" value="4">4</button>
+              <button class="number" type="button" value="5">5</button>
+              <button class="number" type="button" value="6">6</button>
+            </div>
+
+            <div class="Line">
+              <button class="number" type="button" value="1">1</button>
+              <button class="number" type="button" value="2">2</button>
+              <button class="number" type="button" value="3">3</button>
+            </div>
+
+            <div class="Line">
+              <button class="number" type="button" value="0">0</button>
+              <button class="number" type="button" value=".">.</button>
+              <button class="equals" type="button" value="=">=</button>
+            </div>
+          </div>
+
+          <div class="operators">
+            <button class="operator" type="button" value="/">/</button>
+            <button class="operator" type="button" value="*">*</button>
+            <button class="operator" type="button" value="+">+</button>
+            <button class="operator" type="button" value="-">-</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="calculator.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
